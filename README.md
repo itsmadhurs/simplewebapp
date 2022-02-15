@@ -7,3 +7,7 @@
 
 ### Running the app in local
 ./gradlew bootRun
+
+
+### App url in local
+http://localhost:8080/# 
