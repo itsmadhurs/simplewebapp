@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /target/simplewebapp.war
-    destination: /tmp/codedeploy-deployment-staging-area/
+    destination: /tmp/
   - source: /scripts/configure_http_port.xsl
-    destination: /tmp/codedeploy-deployment-staging-area/
+    destination: /tmp/
 file_exists_behavior: OVERWRITE
 hooks:
   ApplicationStop:
