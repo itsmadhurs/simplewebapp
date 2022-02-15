@@ -1,0 +1,15 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo Build completed on `date`
+      - gradle build -x test
+
+artifacts:
+  files:
+    - 'build/libs/*war'
+    - 'scripts/*'
+    - 'appspec.yml'
+    - 'buildspec.yml'
+  name: simplewebapp-$(date +%Y-%m-%d)
