@@ -16,3 +16,20 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+
+.learning-pathway-container {
+  margin-bottom: 53px;
+}
+
+.nav_container {
+  margin-bottom: 29px;
+}
+
+.learning-pathway-container .head {
+  line-height: 4rem;
+}
+.card.learning-pathway {
+  max-width: 25rem;
+  background-color: #dee2e6;
+  border-radius: 0;
+}
